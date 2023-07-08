@@ -9,3 +9,10 @@ body,
   /* min-height: 100vh; */
   /* min-height: 800px; */
 }
+
+.leaflet-bottom,
+.leaflet-control,
+.leaflet-pane,
+.leaflet-top {
+  z-index: 0 !important;
+}
